@@ -1,0 +1,64 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.ThankYouContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #068EC0;
+}
+img{
+    position: relative;
+    top: 100px;
+    pointer-events: none;
+}
+.circleTick{
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* background-color: #005a7a; */
+    background-color: #025C8E;
+    display: block;
+}
+.tick{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 50%;
+    background-color: transparent;
+    border-bottom: 8px solid white;
+    border-left: 8px solid white;
+    transform: rotateZ(-35deg);
+}
+.congratsText{
+    position: absolute;
+    display: block;
+    margin-left: 20px;
+    color: #00394e;
+    top: 130px;
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+}
+.homeButton{
+    background-color: #00394e;
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    color: #068EC0;
+
+    a{
+    text-decoration: none;
+    color: #068EC0;
+    font-size: 1.3rem;
+    }
+}
