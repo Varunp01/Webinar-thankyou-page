@@ -91,6 +91,6 @@ h3 i{
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
-        padding-top: 10vh;
+        /* padding-top: 10vh; */
     }
 }
