@@ -20,7 +20,7 @@ a{
 .thankYouTextContainer{
     display: flex;
     height: 200px;
-    padding-right: 15px;
+    padding-right: 25px;
     width: 400px;
     margin: 20px;
     /* background-color: black; */
@@ -49,6 +49,10 @@ a{
     overflow: hidden;
     font-family: "Poppins", system-ui;
     color: white;
+    
+}
+.increasedFontSize{
+    font-size: 3.5rem;
 }
 .fa-regular{
     font-size: 5rem;
