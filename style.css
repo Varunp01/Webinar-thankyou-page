@@ -2,63 +2,74 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .ThankYouContainer{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    flex-wrap: wrap;
     background-color: #068EC0;
+    background-color: black;
+    
 }
-img{
-    position: relative;
-    top: 100px;
-    pointer-events: none;
+.thankYouTextContainer{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    /* background-color: black; */
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
-.circleTick{
-    position: absolute;
-    top: 20px;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    /* background-color: #005a7a; */
-    background-color: #025C8E;
-    display: block;
-}
-.tick{
-    position: absolute;
-    top: 30px;
-    left: 20px;
+.thankYouContactContainer{
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
-    width: 50%;
-    background-color: transparent;
-    border-bottom: 8px solid white;
-    border-left: 8px solid white;
-    transform: rotateZ(-35deg);
-}
-.congratsText{
-    position: absolute;
-    display: block;
-    margin-left: 20px;
-    color: #00394e;
-    top: 130px;
     font-family: "Poppins", system-ui;
-    font-size: 1.2rem;
+    width: 400px;
+    margin: 20px;
+    /* background-color: rgb(151, 151, 151); */
 }
-.homeButton{
-    background-color: #00394e;
-    display: inline;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 20px;
-    color: #068EC0;
-
+.BorderBoxThankYouTextContainer{
+    height: 90%;
+    width: 30px;
+    margin-right: 5px;
+    /* background-color: aqua; */
+    background-color: #9BE13F;
+    box-shadow: 0px 0px 10px #9BE13F;
+}
+.textThankYouTextContainer{
+    display: block;
+    overflow: hidden;
+    font-family: "Poppins", system-ui;
+    color: white;
+}
+.fa-regular{
+    font-size: 5rem;
+    margin: 15px;
+    color: #9BE13F;
+    text-shadow: 0px 0px 10px #9BE13F;
+}
+h3 i{
+    font-size: 1.2rem;
+    color: #9BE13F;
+}
+.textthankYouContactContainer{
+    color: white;
     a{
-    text-decoration: none;
-    color: #068EC0;
-    font-size: 1.3rem;
+        box-shadow: 0px 0px 10px white;
+    }
+}
+@media screen and (max-width: 992px){
+    .ThankYouContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-top: 10vh;
     }
 }
